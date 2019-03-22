@@ -7,6 +7,7 @@
 		<module>ytl-register</module>
 		<module>ytl-producer-user-service</module>
 		<module>ytl-gateway</module>
+		<module>ytl-monitor</module>
 	</modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>

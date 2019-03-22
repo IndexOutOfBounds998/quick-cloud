@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ytl-gateway" />
+        <module name="ytl-monitor" />
         <module name="ytl-producer-user-service" />
         <module name="ytl-register" />
         <module name="ytlconfig" />
@@ -14,6 +15,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="ytl-gateway" target="1.8" />
+      <module name="ytl-monitor" target="1.8" />
       <module name="ytl-parent" target="1.8" />
       <module name="ytl-producer-user-service" target="1.8" />
       <module name="ytl-register" target="1.8" />

@@ -28,6 +28,7 @@ spring:
           这个uri地址就是从git上建的地址
           
  客户端:bootstrap.yml 配置如下表明 配置信息从service端进行拿取
+ 
           spring:
             application:
               name: producer
