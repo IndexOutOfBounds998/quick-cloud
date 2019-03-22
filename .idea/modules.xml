@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ytl-gateway/ytl-gateway.iml" filepath="$PROJECT_DIR$/ytl-gateway/ytl-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ytl-parent.iml" filepath="$PROJECT_DIR$/ytl-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ytl-producer-user-service/ytl-producer-user-service.iml" filepath="$PROJECT_DIR$/ytl-producer-user-service/ytl-producer-user-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ytl-register/ytl-register.iml" filepath="$PROJECT_DIR$/ytl-register/ytl-register.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ytlconfig/ytlconfig.iml" filepath="$PROJECT_DIR$/ytlconfig/ytlconfig.iml" />
+    </modules>
+  </component>
+</project>
