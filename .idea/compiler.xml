@@ -6,19 +6,26 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ytl-admin" />
+        <module name="ytl-config" />
+        <module name="ytl-dashboard" />
         <module name="ytl-gateway" />
         <module name="ytl-monitor" />
         <module name="ytl-producer-user-service" />
         <module name="ytl-register" />
-        <module name="ytlconfig" />
+        <module name="ytl-user-consumer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="ytl-admin" target="1.8" />
+      <module name="ytl-config" target="1.8" />
+      <module name="ytl-dashboard" target="1.8" />
       <module name="ytl-gateway" target="1.8" />
       <module name="ytl-monitor" target="1.8" />
       <module name="ytl-parent" target="1.8" />
       <module name="ytl-producer-user-service" target="1.8" />
       <module name="ytl-register" target="1.8" />
+      <module name="ytl-user-consumer" target="1.8" />
       <module name="ytlconfig" target="1.8" />
     </bytecodeTargetLevel>
   </component>

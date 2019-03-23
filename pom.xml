@@ -3,11 +3,13 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<modules>
-		<module>ytlconfig</module>
+		<module>ytl-config</module>
 		<module>ytl-register</module>
 		<module>ytl-producer-user-service</module>
 		<module>ytl-gateway</module>
-		<module>ytl-monitor</module>
+		<module>ytl-admin</module>
+        <module>ytl-dashboard</module>
+		<module>ytl-user-consumer</module>
 	</modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -89,6 +91,10 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-hystrix</artifactId>
 		</dependency>
 		<!--注册中心-->
 		<dependency>
