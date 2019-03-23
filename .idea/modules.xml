@@ -7,7 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/ytl-gateway/ytl-gateway.iml" filepath="$PROJECT_DIR$/ytl-gateway/ytl-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/ytl-admin/ytl-monitor.iml" filepath="$PROJECT_DIR$/ytl-admin/ytl-monitor.iml" />
       <module fileurl="file://$PROJECT_DIR$/ytl-parent.iml" filepath="$PROJECT_DIR$/ytl-parent.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ytl-producer-user-service/ytl-producer-user-service.iml" filepath="$PROJECT_DIR$/ytl-producer-user-service/ytl-producer-user-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ytl-user-provider/ytl-producer-user-service.iml" filepath="$PROJECT_DIR$/ytl-user-provider/ytl-producer-user-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/ytl-register/ytl-register.iml" filepath="$PROJECT_DIR$/ytl-register/ytl-register.iml" />
       <module fileurl="file://$PROJECT_DIR$/ytl-user-consumer/ytl-user-consumer.iml" filepath="$PROJECT_DIR$/ytl-user-consumer/ytl-user-consumer.iml" />
     </modules>

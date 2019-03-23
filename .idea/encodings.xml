@@ -6,8 +6,8 @@
     <file url="file://$PROJECT_DIR$/ytl-config" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ytl-dashboard" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ytl-gateway" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ytl-producer-user-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ytl-register" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ytl-user-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ytl-user-provider" charset="UTF-8" />
   </component>
 </project>

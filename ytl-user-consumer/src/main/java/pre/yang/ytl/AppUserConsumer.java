@@ -13,7 +13,6 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-@EnableCircuitBreaker
 @EnableHystrix
 @EnableFeignClients
 public class AppUserConsumer {

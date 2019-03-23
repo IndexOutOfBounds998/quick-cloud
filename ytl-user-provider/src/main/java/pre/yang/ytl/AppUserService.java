@@ -12,7 +12,6 @@ import org.springframework.cloud.netflix.hystrix.EnableHystrix;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-@EnableCircuitBreaker
 @EnableHystrix
 public class AppUserService {
     public static void main(String[] args) {

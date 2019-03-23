@@ -5,7 +5,7 @@
 	<modules>
 		<module>ytl-config</module>
 		<module>ytl-register</module>
-		<module>ytl-producer-user-service</module>
+		<module>ytl-user-provider</module>
 		<module>ytl-gateway</module>
 		<module>ytl-admin</module>
         <module>ytl-dashboard</module>
