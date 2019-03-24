@@ -1,5 +1,5 @@
 server:
-  port: 8024
+  port: 8766
 
 eureka:
   client:
@@ -8,15 +8,12 @@ eureka:
 
 spring:
   application:
-    name: user-consumer
+    name: hystrix-turbine
   rabbitmq:
     host: ${RABBIT_MQ_HOST:localhost}
     port: ${RABBIT_MQ_PORT:5672}
     username: ${RABBIT_MQ_USERNAME:yang}
     password: ${RABBIT_MQ_PASSWORD:yang}
-feign:
-  hystrix:
-    enabled: true
 
 management:
   endpoints:
@@ -24,10 +21,13 @@ management:
       exposure:
         include: '*'
       base-path: /
-
-logging:
-  level:
-    org.springframework.web: debug
-  path: logs/
-  file:
-    max-size: 1GB
+turbine:
+  app-config: PROVIDE-SERVER,USER-CONSUMER
+  cluster-name-expression: new String("default")
+  combine-host-port: true
+  instanceUrlSuffix: /hystrix.stream
+  aggregator:
+    cluster-config: default
+security:
+  basic:
+    enabled: false
