@@ -24,10 +24,7 @@ management:
       exposure:
         include: '*'
       base-path: /
-  endpoint:
-    hystrix:
-      stream:
-        enabled: true
+
 logging:
   level:
     org.springframework.web: debug

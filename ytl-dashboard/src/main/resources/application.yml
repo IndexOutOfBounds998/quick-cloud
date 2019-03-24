@@ -14,7 +14,6 @@ spring:
     port: ${RABBIT_MQ_PORT:5672}
     username: ${RABBIT_MQ_USERNAME:yang}
     password: ${RABBIT_MQ_PASSWORD:yang}
-
 management:
   endpoints:
     web:
@@ -28,3 +27,7 @@ logging:
   path: logs/
   file:
     max-size: 1GB
+
+feign:
+  hystrix:
+    enabled: true
